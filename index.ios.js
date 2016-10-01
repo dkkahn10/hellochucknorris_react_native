@@ -35,7 +35,7 @@ class HelloWorld extends Component {
 
   async getData() {
     try {
-      let response = await fetch('http://localhost:3000/api/greetings')
+      let response = await fetch('https://hellochucknorris.herokuapp.com/api/greetings')
       let json = await response.json()
       return json
     } catch (err) {
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#9EDBD6',
   },
   welcome: {
     fontSize: 20,

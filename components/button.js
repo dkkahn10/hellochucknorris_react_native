@@ -25,7 +25,7 @@ class Button extends Component {
           style={styles.button}
           onPress={this.props.onPress}>
           <View>
-            <Text style={styles.buttonText}>button!</Text>
+            <Text style={styles.buttonText}>BUTTON!</Text>
           </View>
         </TouchableElement>
       </View>
@@ -38,13 +38,13 @@ const styles = StyleSheet.create({
     margin: 0,
     borderColor: 'black',
     borderWidth: 1,
-    borderRadius: 50,
-    backgroundColor: 'red'
+    backgroundColor: '#88AE61'
   },
   buttonContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#9EDBD6',
+    margin: 20
   }
 });
 
