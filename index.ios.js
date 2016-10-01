@@ -47,6 +47,7 @@ class HelloWorld extends Component {
 
     return (
       <View style={styles.container}>
+        <Text style={styles.welcome}>Our Awesome React Native App!</Text>
         <Text>{this.state.greeting}</Text>
         <Button onPress={this.buttonClicked}>Random Greeting!</Button>
       </View>
@@ -62,9 +63,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#9EDBD6',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 40,
     textAlign: 'center',
-    margin: 10,
+    padding: 20,
+    fontWeight: 'bold',
+    fontFamily: 'Cochin'
   },
   instructions: {
     textAlign: 'center',

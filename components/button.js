@@ -38,13 +38,18 @@ const styles = StyleSheet.create({
     margin: 0,
     borderColor: 'black',
     borderWidth: 1,
-    backgroundColor: '#88AE61'
+    backgroundColor: '#88AE61',
+    shadowOpacity: 5,
   },
   buttonContainer: {
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#9EDBD6',
     margin: 20
+  },
+  welcome: {
+    padding: 5,
+    fontSize: 10
   }
 });
 
